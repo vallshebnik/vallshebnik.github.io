@@ -1,0 +1,305 @@
+*{
+    margin: auto; padding: 0;
+}
+body{
+    background-image: url(png/background2.png);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+    font-family:cursive;
+    
+}
+header {
+  width: 100%;height: 180px;; background:rgba(0, 153, 204,.6);
+}
+.icon{
+    width:350px;height:300px;position:relative;
+}
+.menu{
+    width: 100%;height: 120px;margin-top: 25px; background:rgba(0, 153, 204,.3);
+}
+.button1{
+    float: left;
+    width: 350px;
+    height: 120px;
+    margin-left: 200px;
+    display: inline-block;
+    position: relative;
+}
+.button2{
+     float: left;
+    width: 350px;
+    height: 120px;
+    margin-left:40px; 
+    margin-top: 7px;
+    display: inline-block;
+    position: relative;
+}
+.button3{
+     float: left;
+    width: 350px;
+   height: 120px;
+
+    margin-left:40px;
+    display: inline-block;
+    position: relative;   
+}
+.button4{
+     float: left;
+    width: 350px;
+   height: 120px;
+ 
+    margin-left: 40px;
+    display: inline-block;
+    position: relative;
+}
+.content{
+    margin-top: 20px;
+    width: 100%;
+    height: 1150px;   
+}
+
+
+.banner1{
+    float: left;
+    width: 20%;
+    height: 1110px;
+
+}
+.inf{
+    float: left;
+    width: 60%;
+    height: 1110px;
+
+}
+.banner3{
+    float:left;
+    width: 20%;
+    height: 1110px;
+  
+}
+img{
+    width:100%;
+}
+
+.video{
+    width: 100%;
+    height: 680px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.video iframe{
+    width: 91%;
+}
+iframe{
+    width: 1050px;
+    height: 650px;
+}
+.descr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,.8);
+    color: aliceblue;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s;
+}
+.button1:hover .descr{
+    opacity: 1; 
+}
+.button2:hover .descr{
+    opacity: 1; 
+}
+.button3:hover .descr{
+    opacity: 1; 
+}
+.button4:hover .descr{
+    opacity: 1; 
+}
+.saoimg{
+    width: 40%;
+    height: 600px;
+    float: left;
+    
+}
+.saoimg img{
+    padding: 10px;
+    border: 10px;
+}
+.sush1{
+    width: 50%;
+    height: 600px;
+    float: left;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.sush2{
+    float: left;
+    width: 60%;
+    height: 300px;
+    font-size: 110%;
+    padding-left: 10px;
+}
+.shlem{
+    width: 35%;
+    height: 300px;
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+.sush h1{
+    text-align: center;
+}
+.p1{
+    font-size: 140%;
+    padding-top:80px;
+    padding-left: 30px;
+}
+.p2{
+    font-size: 120%;
+    padding-top:50px;
+}
+h1{
+    margin-left: 150px;
+}
+footer{   
+    background-color: azure;
+    padding-left: 250px;
+}
+footer img{
+    height: 40px;
+    width: 40px;
+}
+.f1{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 5px;
+}
+.f2{
+    width: 50%;
+    float: right;
+}
+.tabglav{
+    width: 80%;
+    height: 700px;
+    border: 2;
+    text-align: center; 
+}
+table img{
+    width: 450px;
+    height: 250px;   
+}   
+.openeng{
+    
+    width: 300px;
+    height: 500px;
+}
+.down{
+    width: 110px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+------------------------
+.serii{
+    width: 80%;
+    height: 100px;
+    text-align: center;
+}
+.buton{
+    background:url(png/button1.png) no-repeat top left;
+    width:45px;
+    height:45px;   
+    text-align: center;
+    padding-top: 7px;
+    font-size: 130%;
+}
+.buton2{
+    background:url(png/button2.png) no-repeat top left;
+    width:45px;
+    height:45px;
+    text-align: center;
+    font-size: 120%;
+    padding-top: 7px;
+}
+.bn{
+    width: 95%;
+    height: 100px;
+    margin-top: -20px;
+}
+.back{
+    width: 40%;
+    height: 80px;
+    float: left;
+}
+.next{
+    width: 40%;
+    height: 80px;
+    float: right;
+}
+.ser{
+    padding-top: 30px;
+}
+
+------------------------
+.hero{
+    width: 80%;
+    height: 200px;
+    background: black;
+    padding-top: 100px;
+    
+}
+.kiritokun{
+    margin-top: 35px;                                                       
+    margin-left:80px;
+    width: 500px;
+    height: 800px;
+    float: left;
+    transition: all .7s;
+    background-image:url(png/test.png);
+    background-repeat: repeat-y;
+    display: block;
+}
+.asunatian{
+    margin-top: 36px;
+    width: 500px;
+    height: 800px;
+    float: left;
+    transition: all .7s;
+    background-image:url(png/ASUNATEST.png);
+    background-repeat: repeat-y;
+    display: block;
+    
+}
+.kiritokun:hover  {
+    background-image: url(png/asunafile.png);
+}
+.asunatian:hover {
+    background-image: url(png/kiritofile.png);
+}
+
+
+----------
+.descr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,.8);
+    color: aliceblue;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s;
+}
+.button1:hover .descr{
+    opacity: 1; 
